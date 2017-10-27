@@ -20,7 +20,6 @@ object Person {
       new Person("Foo", "bar"),
       new Person("fizz", "buzz"),
       new Person("X", "Y"))
-
     people.foreach(p => println(greetingFunction.apply(p)))
   }
 }
